@@ -33,5 +33,5 @@ Questo progetto fa parte integrante del Master Full Stack Development di [Start2
 
 Attraverso la definizione di interfacce e classi che rappresentano i vari componenti del sistema (IStartup, IIncentivo, ICittadino), il progetto illustrerà come la tecnologia possa facilitare l'accesso agli incentivi e la partecipazione alle attività sportive.  
 
-Sentiti libero di creare nuove implementazioni per queste interfaccie o migliorare quelle presenti.
+Sentiti libero di creare nuove implementazioni per queste interfacce o migliorare quelle presenti.
 

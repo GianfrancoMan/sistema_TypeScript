@@ -18,7 +18,7 @@ export class Cittadino implements ICittadino {
     //does things;
     console.log(`${this.nome} ${this.cognome} partecipa alle attività:`);
     for(let attivita of startup.prodotti) {
-      this.sports.push();
+      this.sports.push(attivita);
       console.log(attivita);
     }
     console.log(`Della startup ${startup.nome}`);

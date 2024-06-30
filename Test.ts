@@ -12,8 +12,8 @@ let startup2:IStartup = new Startup("Startup2", "focus startup2", "desccrizione 
 let incentivo1:IIncentivo = new Incentivo(1, "Incentivo1", 500.00, ["criterio1 incentivo1", "criterio2 incentivo1"]);
 let incentivo2:IIncentivo = new Incentivo(1, "Incentivo2", 600.00, ["criterio1 incentivo2", "criterio2 incentivo2"]);
 //instanze ICittadino
-let cittadino1: ICittadino = new Cittadino("nome_cittadino1", "cognome_cittadino1", 30, ["sport1 cittadino1", "sport2 cittadino1"]);
-let cittadino2: ICittadino = new Cittadino("nome_cittadino2", "cognome_cittadino2", 30, ["sport1 cittadino2", "sport2 cittadino2"]);
+let cittadino1: ICittadino = new Cittadino("nome_cittadino1", "cognome_cittadino1", 30, []);
+let cittadino2: ICittadino = new Cittadino("nome_cittadino2", "cognome_cittadino2", 30, []);
 
 //assegna incentivo1 a startup1
 incentivo1.assegnaAStartup(startup1);

@@ -16,6 +16,11 @@ export class Cittadino implements ICittadino {
   
   partecipaAttivita(startup:IStartup) {
     //does things;
-    console.log(`${this.nome} ${this.cognome} partecipa alle attività di ${startup.nome}`);
+    console.log(`${this.nome} ${this.cognome} partecipa alle attività:`);
+    for(let attivita of startup.prodotti) {
+      this.sports.push();
+      console.log(attivita);
+    }
+    console.log(`Della startup ${startup.nome}`);
   }
 }
